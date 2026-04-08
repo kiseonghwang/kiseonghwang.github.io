@@ -13,7 +13,7 @@ use_math: false
 ### Cancellation Law
 Cancellation Law는 우리가 흔히 사용했던 빕칙 중 하나와 매우 닮아있습니다.
 
-정의: Let $V$ be a vector space and let $v, w, u \sub V$ be given. Then $v + w = v + u \Rightarrow w = u$
+정의: Let $V$ be a vector space and let $v, w, u \subset V$ be given. Then $v + w = v + u \Rightarrow w = u$
 
 증명) Let $v` \sub V$ a inverse of $v$ be given. Then $v + v` + w = v + v` + u \Rightarrow w = u$
 
@@ -37,5 +37,5 @@ vector space의 특징은 3가지로 집합, linear operation, 8가지 조건입
 
 정의는 다음과 같습니다.
 
-정의) $(V, +, *) : \text{F-vector space}, \empty \not= W \sub V, (W, +, *) : \text{F-vector space}$
+정의) $(V, +, *) : \text{F-vector space}, \emptyset \not= W \subset V, (W, +, *) : \text{F-vector space}$
 이 때 vector space의 linear operation과 subspace의 linear operation이 다르다면 둘은 sub 관계가 아닙니다.
